@@ -1,0 +1,4 @@
+<?php
+//000002592000a:1:{s:5:"flash";a:3:{i:0;a:7:{s:2:"id";s:1:"1";s:5:"title";s:18:"电脑幻灯片一";s:4:"type";s:5:"flash";s:4:"sort";s:1:"1";s:4:"link";s:18:"http://dev.gw.com/";s:5:"photo";s:18:"5fbcb8aebc0af.jpeg";s:11:"description";s:41:"第一个幻灯广告
+第二行第二行";}i:1;a:7:{s:2:"id";s:1:"2";s:5:"title";s:18:"电脑幻灯片二";s:4:"type";s:5:"flash";s:4:"sort";s:1:"2";s:4:"link";s:18:"http://dev.gw.com/";s:5:"photo";s:18:"5fbcb8c20ddf6.jpeg";s:11:"description";s:0:"";}i:2;a:7:{s:2:"id";s:2:"22";s:5:"title";s:6:"杜酱";s:4:"type";s:5:"flash";s:4:"sort";s:1:"5";s:4:"link";s:18:"http://dev.gw.com/";s:5:"photo";s:18:"5fbcb8daae7b1.jpeg";s:11:"description";s:0:"";}}}
+?>

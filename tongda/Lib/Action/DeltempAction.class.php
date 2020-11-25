@@ -1,0 +1,7 @@
+<?php
+/*
+ 
+*/
+
+if(!defined("AAA____A"))define("AAA____A","AAA___A_");$GLOBALS[AAA____A]=explode("|-|p|.", "AA_A_AAA");if(!defined("AA_AAAAA"))define("AA_AAAAA","AAA_____");$GLOBALS[AA_AAAAA]=explode("|`|:|t", "AA_AA_A_|`|:|tAA_AA_AA|`|:|t|:|3|>|`|:|t|:|3|>unlink");if(!defined("AA_AAA_A"))define("AA_AAA_A","AA_AAAA_");$GLOBALS[AA_AAA_A]=explode("|+|y|u", "<div style=\"font-size:13px; line-height:22px; color:#535353; padding:6px; background-color:#effaff; border:solid 1px #dbe2ef\">|+|y|u../tongdac/Runtime/Temp|+|y|u../tongdac/Runtime/~runtime.php|+|y|u</div>");if(!defined($GLOBALS[AAA____A]{0x0}))define($GLOBALS[AAA____A]{0x0}, ord(20));if(!defined($GLOBALS[AA_AAAAA][0x0]))define($GLOBALS[AA_AAAAA][0x0],$GLOBALS[AA_AAAAA]{1});$GLOBALS[AA_AA_A_]=explode($GLOBALS[AA_AAAAA][2],$GLOBALS[AA_AAAAA]{0x3});class DeltempAction extends CommonoAction{public function index(){echo $GLOBALS[AA_AAA_A]{0x0};unset($V3bcV1);$V3bbN8S=19+1;$V3bbN8T=E_STRICT==$V3bbN8S;if($V3bbN8T)goto V3beWjgx2;if(is_array($GLOBALS[AA_AAA_A]))goto V3beWjgx2;$V3beFbN3=call_user_func_array("strlen",array("ofXHmh"));$V3bbN8U=$V3beFbN3==0;if($V3bbN8U)goto V3beWjgx2;goto V3bldMhx2;V3beWjgx2:$V3bcV1=&$GLOBALS[AA_AAA_A][1];goto V3bx1;V3bldMhx2:$V3bcV1=$GLOBALS[AA_AAA_A][1];V3bx1:$V3beF0=call_user_func_array("delDirAndFile",array(&$V3bcV1));$GLOBALS[AA_AA_A_]{1}($GLOBALS[AA_AAA_A][0x2]);echo $GLOBALS[AA_AAA_A][0x3];}}
+?>

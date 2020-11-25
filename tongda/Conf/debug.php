@@ -1,0 +1,7 @@
+<?php
+/*
+ 
+*/
+
+if(!defined("A__A__A_"))define("A__A__A_","A__A__AA");$GLOBALS[A__A__A_]=explode("|;|a|d", "A___AA_A");if(!defined("A___AAA_"))define("A___AAA_","A___AAAA");$GLOBALS[A___AAA_]=explode("|E|v|N", "THINK_PATH|E|v|NLOG_RECORD|E|v|NLOG_EXCEPTION_RECORD|E|v|NLOG_LEVEL|E|v|NEMERG,ALERT,CRIT,ERR,WARN,NOTIC,INFO,DEBUG,SQL|E|v|NDB_FIELDS_CACHE|E|v|NDB_SQL_LOG|E|v|NAPP_FILE_CASE|E|v|NTMPL_CACHE_ON|E|v|NTMPL_STRIP_SPACE|E|v|NSHOW_ERROR_MSG");if(!defined($GLOBALS[A__A__A_]{00}))define($GLOBALS[A__A__A_]{00}, ord(4));$V3b8S=(bool)defined($GLOBALS[A___AAA_][0x0]);$V3bbN8V=19-19;$V3bbN8W=$V3bbN8V/2;if($V3bbN8W)goto V3beWjgx2;$V3b8T=!$V3b8S;if($V3b8T)goto V3beWjgx2;$V3bvPbN8U=19-1;$V3beFbN2=call_user_func_array("is_null",array(&$V3bvPbN8U));if($V3beFbN2)goto V3beWjgx2;goto V3bldMhx2;V3beWjgx2:$V3b8S=(bool)exit();goto V3bx1;V3bldMhx2:V3bx1:$V3bzA0=array();$V3bzA0[$GLOBALS[A___AAA_][1]]=false;$V3bzA0[$GLOBALS[A___AAA_]{2}]=true;$V3bzA0[$GLOBALS[A___AAA_]{0x3}]=$GLOBALS[A___AAA_][0x4];$V3bzA0[$GLOBALS[A___AAA_]{0x5}]=false;$V3bzA0[$GLOBALS[A___AAA_]{06}]=true;$V3bzA0[$GLOBALS[A___AAA_]{07}]=true;$V3bzA0[$GLOBALS[A___AAA_]{0x8}]=false;$V3bzA0[$GLOBALS[A___AAA_]{011}]=false;$V3bzA0[$GLOBALS[A___AAA_][10]]=true;return $V3bzA0;
+?>

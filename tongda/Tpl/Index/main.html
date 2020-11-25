@@ -1,0 +1,46 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<load href="../Public/js/jquery-1.7.2.min.js"/>
+<load href="../Public/js/select.js"/>
+<load href="../Public/css/index.css"/>
+<title>后台首页</title>
+</head>
+<body>
+  <div class="tablelisthead">
+    <ul pid='0'>
+      <li class="li_15">&nbsp;系统基本信息</li>
+      <li class="li_40"></li>
+    </ul>
+  </div>
+  
+  <div id="languageBox2">
+    <div class="tablelist">
+
+        <volist name="info" id="v">
+        <ul onmouseover="this.style.background ='#FFFDD7'" onmouseout="this.style.background ='#FFFFFF'" style="height:30px; padding-top:5px;">
+            <li class="li_15">&nbsp;<{$key}>：</li>
+            <li class="li_40"><{$v}></li>
+        </ul>
+        </volist>
+
+    </div>
+  </div>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="36" class="BotNavBg">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" style="padding-left:5px;">
+            
+            </td>
+            <td width="92%" align="center">
+ 
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

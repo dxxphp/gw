@@ -1,0 +1,24 @@
+<div class="tabs_btn" data-move-y="40px">
+      <ul class="nav nav-tabs" role="tablist">
+      <volist name='flash' id='vo'  offset="0" length="4">
+            <li role="presentation" <if condition='$i eq 1'>class="active"</if>><a href="#gotab<{$i}>" aria-controls="gotab<{$i}>" role="tab" data-toggle="tab"><{$vo.title}></a></li>
+      </volist>
+      </ul>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12"> 
+      <div class="tab-content">
+      <volist name='flash' id='vo'  offset="0" length="4">
+            <div role="tabpanel" class="tab-pane <if condition='$i eq 1'> active</if>" id="gotab<{$i}>">
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                        <img src="__ROOT__/Uploads/<{$vo.photo}>" class="tab_img" alt="<{$vo.title}>">
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 tab_text">
+                        <h3 class="tab_h3"><{$vo.title}></h3>
+                        <p class="tab_p"><{$vo.description|nl2br}></p>
+                        <a href="<{$vo.link}>" target="_blank" class="tab_more">查看详细</a>
+                  </div>
+                  <div class="clear"></div>
+            </div>
+      </volist>
+      </div>
+</div>

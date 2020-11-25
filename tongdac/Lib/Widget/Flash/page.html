@@ -1,0 +1,26 @@
+<div class="slider5">
+<volist name='flash' id='vo'  offset="0" length="4">
+<div class="slide">
+    <a href="<{$vo.link}>" target="_blank"><img src="__ROOT__/Uploads/<{$vo.photo}>" class="adv_img" alt="<{$vo.title}>"></a>
+</div>
+</volist>
+</div>
+    <script type="text/javascript">
+        if($(window).width()<700){
+            var minSlides = 2;
+            var maxSlides =2;
+            var isauto = true;
+        }else{
+            var minSlides = 4;
+            var maxSlides =4;
+            var isauto = false;
+        }
+          $('.slider5').bxSlider({
+            slideWidth: 300,
+            minSlides: minSlides,
+            maxSlides: maxSlides,
+            moveSlides: 4,
+            slideMargin: 10,
+            auto:isauto
+          });
+    </script>

@@ -1,0 +1,66 @@
+<nav class="navbar navbar-default navbar-fixed-bottom mfoot_box">
+      <div class="mfoot_nav btn-group dropup">
+            <a class="dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                  <span class="glyphicon glyphicon-share btn-lg" aria-hidden="true"></span>分享
+            </a>  
+            <div class="dropdown-menu mfoot_share">
+                  <div class="bdsharebuttonbox" style="display: inline-block; float:left;">
+                        <a href="#" class="bds_more" data-cmd="more"></a>
+                        <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+                        <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+                        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                  </div>
+                  <script>
+                        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                  </script>
+            </div>
+      </div>
+      <div class="mfoot_nav">
+            <a href="tel:<{$Think.config.web_phone}>">
+                  <span class="glyphicon glyphicon-phone btn-lg" aria-hidden="true"></span>手机
+            </a>
+      </div>
+      <div class="mfoot_nav"  aria-hidden="true"  data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="glyphicon glyphicon-th-list btn-lg"></span>分类
+      </div>
+      <div class="mfoot_nav">
+            <a id="gototop" href="#">
+                  <span class="glyphicon glyphicon-circle-arrow-up btn-lg" aria-hidden="true"></span>顶部
+            </a>
+      </div>
+</nav>
+
+<footer>
+      <div class="container">    
+            <div class="row">
+                  <div class="col-xs-12 col-sm-3 col-md-3">
+                        <img class="footer_logo" style="height: 150px; width: 150px;" src="__ROOT__/Uploads/<{:W('Flash',array('type'=>3,'id'=>21))}>" alt="底部LOGO">
+                  </div>
+                  <div class="col-xs-12 col-sm-3 col-md-3 footer_contact">
+                        <p>电话：<{$Think.config.web_tel}></p>
+                        <p>手机：<{$Think.config.web_phone}></p>
+                        <p>邮箱：<{$Think.config.web_email}></p>
+                        <p>地址：<{$Think.config.web_add}></p>
+
+                  </div>
+                  <div class="col-xs-12 col-sm-4 col-md-4">
+                        <p>&nbsp&nbsp山西棣雅棠茶酒文化有限公司</p>
+                        <p class="footer_logo_text"><{$Think.config.web_copyright}></p>
+
+                  </div>
+                  <div class="col-xs-12 col-sm-2 col-md-2">
+                        <img class="footer_qrcode" src="__ROOT__/Uploads/<{$Think.config.web_qrcode}>" alt="二维码图片">
+                        <p class="footer_qrcode_text">联系我们</p>
+                  </div>
+
+            </div>
+      </div> 
+</footer>
+
+<include file='Public:translate'/>
+
+<{:W('Online')}>
+
+<{$Think.config.web_baidu}>

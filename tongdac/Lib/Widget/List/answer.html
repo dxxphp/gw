@@ -1,0 +1,10 @@
+<if condition="$new">
+<ul class="answer_ul" data-move-y="40px">
+      <volist name="new" id="vo" offset="0" length="4">
+      <li>
+            <a href="<{:W('Href',array('url'=>$vo['url'],'id'=>$vo['id'],'type'=>'new'))}>" title="<{$vo.title}>"><{$vo.title|mb_substr=###,0,34,'utf-8'}></a>
+            <p><{$vo.description|mb_substr=###,0,50,'utf-8'}></p>
+      </li>
+      </volist>
+</ul>
+</if>

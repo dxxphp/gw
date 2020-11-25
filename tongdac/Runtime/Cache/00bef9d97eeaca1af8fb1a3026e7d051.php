@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><div class="about_content"><?php echo (strip_tags($contents)); ?></div>
