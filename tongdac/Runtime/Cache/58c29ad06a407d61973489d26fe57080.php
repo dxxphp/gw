@@ -6,8 +6,8 @@
 <div class="col-xs-12 col-sm-12 col-md-12"> 
       <div class="tab-content">
       <?php if(is_array($flash)): $i = 0; $__LIST__ = array_slice($flash,0,4,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div role="tabpanel" class="tab-pane <?php if($i == 1): ?>active<?php endif; ?>" id="gotab<?php echo ($i); ?>">
-                  <div class="col-xs-12 col-sm-6 col-md-6">
-                        <img src="__ROOT__/Uploads/<?php echo ($vo["photo"]); ?>" class="tab_img" alt="<?php echo ($vo["title"]); ?>">
+                  <div class="col-xs-12 col-sm-6 col-md-6" >
+                        <img style="height: 400px; width: 280px;"  src="__ROOT__/Uploads/<?php echo ($vo["photo"]); ?>" class="tab_img" alt="<?php echo ($vo["title"]); ?>">
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-6 tab_text">
                         <h3 class="tab_h3"><?php echo ($vo["title"]); ?></h3>
